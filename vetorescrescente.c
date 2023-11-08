@@ -19,9 +19,9 @@ void main() {
 		       }	       
 	}
 }
-        printf("Valores ordenados em ordem crescente:\n");
-        for (int i = 0; i < 7; i++) {
-		printf("%d\n", vetor[i]);
+        printf("\nValores ordenados em ordem crescente:\n");
+        for ( int i = 0; i < 7; i++) {
+		printf("=======>   %d   <======\n", i, temp, vetor[i]);
 	}
        }
 
